@@ -13,9 +13,9 @@ tasks:
     dest: ./resources/[cfx-default]
   
   # Download and prepare server.cfg / database
-    action: download_github
+  - action: download_github
     src: https://github.com/lcplreaper/esx_recipe
-    ref: legacy
+    ref: main
     dest: ./tmp/recipe
 
   - action: move_path
@@ -38,52 +38,52 @@ tasks:
 
   - action: download_github
     src: https://github.com/esx-fork/esx_addonaccount
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_addonaccount
 
   - action: download_github
     src: https://github.com/esx-fork/esx_addoninventory
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_addoninventory
 
   - action: download_github
     src: https://github.com/esx-fork/esx_datastore
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_datastore
 
   - action: download_github
     src: https://github.com/esx-fork/esx_policejob
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_policejob
 
   - action: download_github
     src: https://github.com/esx-fork/esx_service
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_service
 
   - action: download_github
     src: https://github.com/esx-fork/esx_rpchat
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_rpchat
 
   - action: download_github
     src: https://github.com/esx-fork/esx_cruisecontrol
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_cruisecontrol
 
   - action: download_github
     src: https://github.com/esx-fork/esx_basicneeds
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_basicneeds
 
   - action: download_github
     src: https://github.com/esx-fork/esx_clotheshop
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_clotheshop
 
   - action: download_github
     src: https://github.com/esx-fork/esx_optionalneeds
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_optionalneeds
 
   - action: waste_time # prevent github throttling
@@ -91,72 +91,72 @@ tasks:
 
   - action: download_github
     src: https://github.com/esx-fork/esx_property
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_property
 
   - action: download_github
     src: https://github.com/esx-fork/esx_dmvschool
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_dmvschool
 
   - action: download_github
     src: https://github.com/esx-fork/esx_barbershop
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_barbershop
 
   - action: download_github
     src: https://github.com/esx-fork/esx_weaponshop
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_weaponshop
 
   - action: download_github
     src: https://github.com/esx-fork/esx_shops
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_shops
 
   - action: download_github
     src: https://github.com/esx-fork/esx_taxijob
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_taxijob
 
   - action: download_github
     src: https://github.com/esx-fork/esx_billing
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_billing
 
   - action: download_github
     src: https://github.com/esx-fork/esx_drugs
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_drugs
 
   - action: download_github
     src: https://github.com/esx-fork/esx_garage
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_garage
 
   - action: download_github
     src: https://github.com/esx-fork/esx_vehicleshop
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_vehicleshop
 
   - action: download_github
     src: https://github.com/esx-fork/esx_joblisting
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_joblisting
 
   - action: download_github
     src: https://github.com/esx-fork/esx_banking
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_banking
 
   - action: download_github
     src: https://github.com/esx-fork/esx_lscustom
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_lscustom
 
   - action: download_github
     src: https://github.com/esx-fork/esx_society
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_society
 
   - action: waste_time # prevent github throttling
@@ -164,52 +164,52 @@ tasks:
 
   - action: download_github
     src: https://github.com/esx-fork/esx_license
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_license
 
   - action: download_github
     src: https://github.com/esx-fork/esx_accessories
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_accessories
 
   - action: download_github
     src: https://github.com/esx-fork/esx_jobs
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_jobs
 
   - action: download_github
     src: https://github.com/esx-fork/esx_ambulancejob
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_ambulancejob
 
   - action: download_github
     src: https://github.com/esx-fork/esx_mechanicjob
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_mechanicjob
 
   - action: download_github
     src: https://github.com/esx-fork/esx_animations
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_animations
 
   - action: download_github
     src: https://github.com/esx-fork/esx_boat
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_boat
 
   - action: download_github
     src: https://github.com/esx-fork/esx_phone
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_phone
 
   - action: download_github
     src: https://github.com/esx-fork/esx_status
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_status
     
   - action: download_github
     src: https://github.com/esx-fork/esx_sit
-    ref: main
+    ref: master
     dest: ./tmp/addons/esx_sit
 
   - action: move_path
