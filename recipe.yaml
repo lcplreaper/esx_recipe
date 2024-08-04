@@ -36,7 +36,7 @@ tasks:
     dest: ./resources/[standalone]/bob74_ipl
 
   - action: download_github
-    src: 
+    src: https://github.com/lcplreaper/esx_core
     ref: main
     dest: ./tmp/core
 
