@@ -230,7 +230,7 @@ tasks:
     dest: ./resources/[standalone]/pma-voice
 
   - action: query_database
-  - file: ./tmp/core/[SQL]/legacy.sql
+    file: ./tmp/core/[SQL]/legacy.sql
 
   - action: download_file
     path: ./tmp/files/oxmysql.zip
